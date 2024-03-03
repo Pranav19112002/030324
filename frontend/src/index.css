@@ -1,0 +1,32 @@
+
+
+
+body {
+  background-image: url('./components/Images/logcover2.jpg');
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+  background-size: cover; /* Ensure the image covers the entire container */
+  background-position: center; /* Center the image */
+  font-family: roboto, cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Optional: Adjust height as needed */
+}
+
+*{
+  margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
